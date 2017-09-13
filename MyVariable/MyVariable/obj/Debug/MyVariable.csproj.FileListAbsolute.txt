@@ -1,0 +1,5 @@
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\bin\Debug\MyVariable.exe.config
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\bin\Debug\MyVariable.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\bin\Debug\MyVariable.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\obj\Debug\MyVariable.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\obj\Debug\MyVariable.pdb

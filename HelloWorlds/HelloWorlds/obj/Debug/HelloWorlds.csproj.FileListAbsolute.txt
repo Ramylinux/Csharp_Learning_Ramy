@@ -1,0 +1,11 @@
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe.config
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_My_Training-\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe.config
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_My_Training-\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_My_Training-\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\HelloWorlds\HelloWorlds\bin\Debug\HelloWorlds.exe.config
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\HelloWorlds\HelloWorlds\obj\Debug\HelloWorlds.pdb
