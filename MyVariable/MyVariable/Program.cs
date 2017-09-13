@@ -10,6 +10,7 @@ namespace MyVariable
     {
         static void Main(string[] args)
         {
+            //Add Comment
             int _myValue=7;
             Console.WriteLine("{0}", _myValue);
             Console.ReadKey();
