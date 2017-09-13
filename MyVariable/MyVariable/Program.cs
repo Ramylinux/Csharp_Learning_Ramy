@@ -10,9 +10,9 @@ namespace MyVariable
     {
         static void Main(string[] args)
         {
-            //Add Comment
-            int _myValue=7;
-            Console.WriteLine("{0}", _myValue);
+            //Change Name Variable
+            int myValue=7;
+            Console.WriteLine(" My Variable Value = {0}", myValue);
             Console.ReadKey();
 
         }
