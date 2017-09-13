@@ -6,3 +6,6 @@ C:\Users\redhat\Desktop\Ramy_Tranining-C#\First_Language\MyVariable\MyVariable\o
 C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\bin\Debug\MyVariable.exe.config
 C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\obj\Debug\MyVariable.exe
 C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\obj\Debug\MyVariable.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\bin\Debug\MyVariable.exe
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\bin\Debug\MyVariable.pdb
+C:\Users\redhat\Desktop\Ramy_Tranining-C#\My_GitHub\Csharp_Learning_Ramy\MyVariable\MyVariable\obj\Debug\MyVariable.csprojResolveAssemblyReference.cache
