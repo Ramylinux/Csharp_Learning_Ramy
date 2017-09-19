@@ -20,6 +20,10 @@ namespace DataTypes_FloatPointType
             double dlVar = 1D / 3;
             decimal dcVar = 1M / 3;
             Console.WriteLine("\n Float Value = {0}\n Double Value = {1}\n  Decimal Value={2}\n" ,flVar, dlVar, dcVar);
+            
+            //OR for Printing
+
+            Console.WriteLine($"\n Float Value = {flVar}\n Double Value = {dlVar}\n Decimal Value = {dcVar}\n ");
 
 
             Console.ReadKey();
