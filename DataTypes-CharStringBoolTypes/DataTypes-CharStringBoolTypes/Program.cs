@@ -77,7 +77,8 @@ namespace DataTypes_CharStringBoolTypes
             int myletter1 = 'R', myletter2 = 'r';
 
             Console.WriteLine("\nMy Letter \"R\" is = {0} and My Small letter is \"r \" is = {1}\n", myletter1,myletter2);
-            Console.WriteLine("Myletter R =" + "\""  +myletter1+ "\" " + "MyLetter r =" + "\""  +myletter2 + "\"");
+
+            Console.WriteLine("\nMyletter R =" + "\""  +myletter1+ "\" " + "MyLetter r =" + "\""  +myletter2 + "\"");
 
             Console.ReadKey();
 
