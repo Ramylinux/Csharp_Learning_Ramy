@@ -21,7 +21,7 @@ namespace Literal_Characters
 
 
             Console.WriteLine("{0} {1} {2}\n", myVar,myUVar,myLVar);
-
+            
             Console.WriteLine($"\n MYDouble= {myDVar}, MyDecimal= {myDecVar}, MyFloat= {myFloat}\n");
 
         }
