@@ -32,11 +32,31 @@ namespace DataTypes_CharStringBoolTypes
             Console.WriteLine("\n My Value = \"{0}\" Convert to My Charachter = \"{1}\" ", myVarValue, myVarVlue2);
 
 
-            // Convert Char G To interger 71
+            // Convert Char R To interger 82
             char myLetter = 'R';
             int myVarVlue3 = Convert.ToChar(myLetter);
 
             Console.WriteLine("\n My Charachter =  \"{0}\" Convert To  My Value = \"{1}\" ", myLetter, myVarVlue3);
+
+
+
+            // Convert Char 82 To interger R
+            char myVarVlue4 = Convert.ToChar(82);
+
+            Console.WriteLine("\n My Value =  \"{0}\" Convert To  My Charachter = \"{1}\" ", 82, myVarVlue4);
+
+
+            //String
+            string myString = "Welcome To ";
+            Console.WriteLine("\n === My String is ==== {0}\n ", myString);
+
+
+            // Booling
+
+            bool myBool = true; // or false
+
+            Console.WriteLine("My Boolean Value is = {0}\n", myBool);
+
 
             Console.ReadKey();
 
