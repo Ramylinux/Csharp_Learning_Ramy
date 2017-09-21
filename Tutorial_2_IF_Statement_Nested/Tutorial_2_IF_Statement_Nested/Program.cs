@@ -46,7 +46,7 @@ namespace Tutorial_2_IF_Statement_Nested
             Console.ReadKey();
 /*==================================================================================================*/
 
-// Q2 --- Another (if statments)
+// Q2 --- Another (Nested if statments)
 
            // int myVar1 = 10, myVar2 = 6, myVar3 = 8;
             if (myVar1 == 10)
@@ -66,9 +66,34 @@ namespace Tutorial_2_IF_Statement_Nested
                 Console.WriteLine("My variables didn't match the conditions");
             }
 
+            Console.ReadKey();
+/*==================================================================================================*/
 
+   // Q3 --- Another (Nested if statments)
 
+            Console.ForegroundColor = ConsoleColor.White;
 
+            // int myVar1 = 10, myVar2 = 6, myVar3 = 8;
+            if (myVar1<=4)
+            {
+                Console.WriteLine("\n\n\n\nCondition one Right\n\n\n");
+            }
+            else if (myVar1 >= 4 && myVar2 >= 7)
+            {
+                Console.WriteLine("\n\n\n\nCondition Two Right\n\n\n");
+
+            }
+            else if (myVar3 >5)
+            {
+                Console.WriteLine("\n\n\n\nCondition Three Right\n\n\n");
+            }
+            else
+            {
+                Console.WriteLine("\n\n\n\nNo one if the Conditions\n\n\n");
+            }
+  /*==================================================================================================*/
+
+            Console.ReadKey();
 
         }
     }
