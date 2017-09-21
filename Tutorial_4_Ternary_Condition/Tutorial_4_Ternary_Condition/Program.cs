@@ -16,7 +16,7 @@ namespace Tutorial_4_Ternary_Condition
             string myResult;
             myResult=(myVar1>=9)?"Good Work":"bad work";
             Console.WriteLine($"this is {myResult}\n\n");
-
+/*==============================================================================*/
             //Q2
 
             string myName = "Ramy AbuDhair",result;
