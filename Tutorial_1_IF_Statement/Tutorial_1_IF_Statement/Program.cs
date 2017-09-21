@@ -66,6 +66,9 @@ namespace Tutorial_1_IF_Statement
             }
 
 
+            Console.ReadKey();
+
+
         }
                   
     }
