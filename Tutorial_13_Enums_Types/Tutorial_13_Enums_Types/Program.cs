@@ -13,7 +13,6 @@ namespace Tutorial_13_Enums_Types
         {
             ramy,
             abudhair=2
-
         }
 
         // Eample 2 - Tutorail
@@ -21,7 +20,6 @@ namespace Tutorial_13_Enums_Types
         {
             male = 1,
             female = 2
-
         }
         //Question 20  From Tutorail
         // Tutorial 13_enums ==> Question
