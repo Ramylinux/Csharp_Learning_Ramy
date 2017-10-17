@@ -106,10 +106,10 @@ namespace Tutorial_14_Structure_Type
             Console.ReadKey();
 
 
-            Console.WriteLine("1)West\n2)South\n3)East\n4)North\n\n");
+            Console.WriteLine("1)East\n2)West\n3)South\n4)North\n\n");
 
             
-             direction myDeriction;
+            direction myDeriction;
             int orientation1, mydistance;
 
             do
