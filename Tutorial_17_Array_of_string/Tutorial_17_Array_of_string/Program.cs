@@ -27,7 +27,7 @@ namespace Tutorial_17_Array_of_string
 
 
 
-            string[] myFullName = new string [] { "Ramy ", "Ibrahim ", "Abu_Dhair" }; // OR // string[] myFullName = { "Ramy ", "Ibrahim ", "Abu_Dhair" };
+            string[] myFullName = new string [] { "Ramy ", "Ibrahim ", "Abu_Dhair" }; // OR : Mode1 define Array // string[] myFullName = { "Ramy ", "Ibrahim ", "Abu_Dhair" };
             int myArraylength = myFullName.Length; // for read length Array
 
             foreach(string fullName in myFullName)
