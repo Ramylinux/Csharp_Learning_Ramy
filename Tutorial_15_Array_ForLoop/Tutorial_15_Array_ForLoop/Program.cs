@@ -17,12 +17,14 @@ namespace Tutorial_15_Array_ForLoop
             int[] myNumber2 = new int[5]; // Mode 2 define the array
 
             int[] myNumber3 = new int[5] { 1, 5, 8, 9, 7 };// Mode 3 define the array it is OK 
+            // OR
+            //   int[] myNumber3 = new int[] { 1, 5, 8, 9, 7 };// you can without arraysize
 
             // You can change size array [5] to Variable as
 
             const int myArraySize = 5;
 
-            int[] myNumber4 = new int[myArraySize] { 90, 15, 800, 250, 131 }; // index Array 4 number from {0 to 4}
+            int[] myNumber4 = new int[myArraySize] { 900, 15, 800, 250, 131 }; // index Array 4 number from {0 to 4}
 
             Console.WriteLine("\nMy numbers" +" is  " + $"{myNumber4[4]}\n");
 
