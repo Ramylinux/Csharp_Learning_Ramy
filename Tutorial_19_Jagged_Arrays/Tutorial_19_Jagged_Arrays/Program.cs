@@ -30,7 +30,7 @@ namespace Tutorial_19_Jagged_Arrays
             //int[] myNumber3 = new int[arraySize] { 1, 5, 8, 9, 7 };// Mode 3 define the array it is OK
 
             //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-            /*
+           
                         // define Array 2D
                        
                         int[,] myNumbwer_2D = new int[,]
@@ -79,7 +79,10 @@ namespace Tutorial_19_Jagged_Arrays
             //Initialize the elements :
             arr[0] = new int[5] { 1, 3, 5, 7, 9 };
             arr[1] = new int[4] { 2, 4, 6, 8 }; ;
-           
+
+            Console.WriteLine("\narr[0] = new int[5] { 1, 3, 5, 7, 9 };\narr[1] = new int[4] { 2, 4, 6, 8 }; \n\n");
+
+
             //Display the array elements :
             for ( int i=0; i < arr.Length; i++) // Loop on length to arr[] is Two array size (arr [2][])
             {
@@ -93,8 +96,8 @@ namespace Tutorial_19_Jagged_Arrays
                    } 
                 Console.WriteLine();
             }
-
-            */
+            Console.WriteLine("\n\n\n");
+            Console.ReadKey();
 
             //Example 
 
@@ -105,20 +108,20 @@ namespace Tutorial_19_Jagged_Arrays
             // and print the result for each arry in a seperate row
 
             // Question 24
-            Console.WriteLine(" //Q24/ define a jagged array that contains these arraies inside of it \n a = { 1,5,8,9,6.4,9}\n b = { 0,4,3,} \n c = { 2,9,3,10} \n and print the result for each arry in a seperate row\n\n");
+            Console.WriteLine(" //Q24/ define a jagged array that contains these arraies inside of it \n a = { 1,5,8,9,6.4,9}\n b = { 0,4,3,} \n c = { 2,9,3,10} \n\n and print the result for each arry in a seperate row\n\n");
             
-            double[][] arr = new double[3][];
-            arr[0] = new double[] { 1, 5, 8, 9, 6.4, 9 };
-            arr[1] = new double[] { 0, 4, 3 };
-            arr[2] = new double[] { 2, 9, 3, 10 };
+            double[][] arr1 = new double[3][];
+            arr1[0] = new double[] { 1, 5, 8, 9, 6.4, 9 };
+            arr1[1] = new double[] { 0, 4, 3 };
+            arr1[2] = new double[] { 2, 9, 3, 10 };
 
-            for (int i = 0; i < arr.Length; i++) // loop Three once 
+            for (int i = 0; i < arr1.Length; i++) // loop Three once 
             {
                  Console.Write($"Element ({i}) :");
 
-              for(int a = 0; a < arr[i].Length; a++)
+              for(int a = 0; a < arr1[i].Length; a++)
                 {
-                    Console.Write($"{arr[i][a]} ");
+                    Console.Write($"{arr1[i][a]} ");
                 }
 
                 Console.WriteLine();
@@ -128,8 +131,9 @@ namespace Tutorial_19_Jagged_Arrays
 
             Console.WriteLine();
 
-        
-           
+
+            Console.ReadKey();
+
             //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         } // Close ==> static void Main(string[] args)
