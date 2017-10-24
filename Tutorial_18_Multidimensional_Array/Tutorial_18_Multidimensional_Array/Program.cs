@@ -85,24 +85,30 @@ namespace Tutorial_18_Multidimensional_Array
             // Example 2
 
             // define Array 3D
-          
-            int[,,] myNumbwer_3D = new int[3,2,3 ]
+
+           
+         
+            int[,,] myNumbwer_3D = new int[ , , ]
+            // OR
+            // int[,,] myNumbwer_3D = new int[3, 2, 3] 
             {
                             {
-
-                            {10,20,30 }, 
-                            {40,50,60 }
+                    // Index for Array 3D is:Group demination1 is 0: {0,1,2,3},{0,1,2,3},
+                            {10,20,30 }, // Index for Array 3D is:row 0: {(0,0,0),(0,0,1),(0,0,2)}
+                            {40,50,60 }  // Index for Array 3D is:row 1: {(0,1,0),(0,1,1),(0,1,2)}
 
                             },
 
-
+                    // Index for Array 3D is:Group demination1 is 1: {0,1,2,3},{0,1,2,3},
                             {
-                                {70,80,90 },
-                                {11,12,13 }
+                                {70,80,90 },// Index for Array 3D is:row 0: {(1,0,0),(1,0,1),(1,0,2)}
+                                {11,12,13 } // Index for Array 3D is:row 1: {(1,1,0),(1,1,1),(1,1,2)}
                             },
-{
-                                {79,88,79 },
-                                {19,62,93 }
+
+                   // Index for Array 3D is:Group demination1 is 2: {0,1,2,3},{0,1,2,3},
+                            {
+                                {79,88,79 },// Index for Array 3D is:row 1: {(2,0,0),(2,0,1),(2,0,2)}
+                                {19,62,93 } // Index for Array 3D is:row 1: {(2,1,0),(2,1,1),(2,1,2)}
                             },
 
 
