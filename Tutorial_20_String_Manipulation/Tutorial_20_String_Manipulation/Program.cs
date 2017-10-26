@@ -80,12 +80,11 @@ namespace Tutorial_20_String_Manipulation
 
             // Another Soluation
 
-            string padmySmart;
             Console.WriteLine("Another Solution :\n\n");
             char [] myTrimChar = { 'I', 'a','m'};
             mySmart = mySmart.TrimStart(myTrimChar);
-            padmySmart = mySmart.PadLeft(6);
-            Console.WriteLine($"He is{padmySmart}\n\n");
+            mySmart = mySmart.PadLeft(6);
+            Console.WriteLine($"He is{mySmart}\n\n");
             
 
 
