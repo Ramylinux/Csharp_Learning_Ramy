@@ -75,6 +75,20 @@ namespace Tutorial_20_String_Manipulation
             Console.WriteLine($"\nThe String length this is array : {mySmartArray.Length}");
 
 
+
+            //==========================================
+
+            // Another Soluation
+
+            string padmySmart;
+            Console.WriteLine("Another Solution :\n\n");
+            char [] myTrimChar = { 'I', 'a','m'};
+            mySmart = mySmart.TrimStart(myTrimChar);
+            padmySmart = mySmart.PadLeft(6);
+            Console.WriteLine($"He is{padmySmart}\n\n");
+            
+
+
         }//Colse ==> static void Main(string[] args)
 
     }
