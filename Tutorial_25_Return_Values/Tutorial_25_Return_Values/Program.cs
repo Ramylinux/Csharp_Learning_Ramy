@@ -31,7 +31,8 @@ namespace Tutorial_25_Return_Values
             double total;
             for (int i =1;i<arrayAvarage.Length;i++)
             {
-                 myAvarage = myAvarage + arrayAvarage[i];
+                
+                myAvarage = myAvarage + arrayAvarage[i];
                 
             }
            // Console.WriteLine($"my Avarage from this Function is {myAvarage}\n");
@@ -40,9 +41,7 @@ namespace Tutorial_25_Return_Values
             return total;
         }
 
-
-
-
+        
         static void Main(string[] args)
         {
 
@@ -65,10 +64,13 @@ namespace Tutorial_25_Return_Values
             //of a student that has 7 grades and print the
             //result in the void main\n\n");
 
-            int[] arrayAvarage = {1,2,30,4,5,6,7 };
-
+           int[] arrayAvarage = {1,2,30,4,5,6,7 };
+           
+           
             double avarage = AvarageRate(arrayAvarage);
-            Console.WriteLine($" The the avarage of a student that has 7 grades is {avarage}\n\n"); 
+            Console.WriteLine($" The the avarage of a student that has 7 grades is {avarage}\n\n");
+            //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            
 
         }// Close ==> static void Main(string[] args)
     }
