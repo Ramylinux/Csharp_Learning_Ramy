@@ -54,6 +54,7 @@ namespace Tutorial_26_ReferenceValue
             MultiNumbers(ref number1,  ref number2);
          
             Console.WriteLine($" (With  Ref ) Multiply  Two  Numbers is Number1:= {number1} Number2:= {number2} ");
+            Console.ReadKey();
 
             //// From Tutorial Question 27
             int myNumber1 = 5, myNumber2 = 4;
