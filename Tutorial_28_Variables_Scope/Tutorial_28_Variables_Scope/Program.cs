@@ -28,6 +28,20 @@ namespace Tutorial_28_Variables_Scope
             printMyString(); // Call Local and Gloval Variables inside Function
 
             Console.ReadKey();
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            //Notes About Variable Scope in Structure
+
+            int i, index=0; // add value for (index variable) and this value is initial value  
+            //
+
+            for (i = 0; i < 9; i++) // i=0 this is (i variable) value is initial value 
+            {
+                index = i;//add value for (index variable) but this value is not initial value
+                Console.WriteLine($"{index}");
+            }
+            Console.WriteLine($"Last index output in loop : {index}");
+            Console.ReadKey();
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         }//Close ==> static void Main(string[] args)
 
