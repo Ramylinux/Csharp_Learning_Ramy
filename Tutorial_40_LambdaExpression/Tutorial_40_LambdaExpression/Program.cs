@@ -55,7 +55,7 @@ namespace Tutorial_40_LambdaExpression
                          // Notes: 
                          //n =n1+n2 is meaning  (n=n1) (n=n2)
                          //(n=n1) ==> n1( myXNumber = myXNumber(last Number get it is =35) + number(n(5));) ==> myXNumber=35+5=40
-                         //(n=n2) ==> n2(myXNumber = myXNumber(laset Number get it is =40) * number(n(5));)==> myXNumber=40*5=200
+                         //(n=n2) ==> n2(myXNumber = myXNumber(last Number get it is =40) * number(n(5));)==> myXNumber=40*5=200
                          // So n value is n=200
  
             n(5); // Give delegate n value = 5 this Value to replace with (int number)into function

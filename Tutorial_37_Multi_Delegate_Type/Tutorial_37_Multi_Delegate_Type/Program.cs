@@ -43,8 +43,15 @@ namespace Tutorial_37_Multi_Delegate_Type
             //(n=n1) ==> n1( myXNumber = myXNumber(last Number get it is =35) + number(n(5));) ==> myXNumber=35+5=40
             //(n=n2) ==> n2(myXNumber = myXNumber(last Number get it is =40) * number(n(5));)==> myXNumber=40*5=200
             // So n value is n=200
-            
-            n (5); // Give delegate n value = 5 this Value to replace with (int number)into function
+            // But Notes if change this parametars to n=n2+n1
+            // Notes
+            // n =n2+n1 is meaning  (n=n2) (n=n1)
+            //(n=n2) ==> n2( myXNumber = myXNumber(last Number get it is =35) + number(n(5));) ==> myXNumber=35*5=175
+            //(n=n1) ==> n1(myXNumber = myXNumber(last Number get it is =175) * number(n(5));)==> myXNumber=175+5=180
+            // So n value is n=180
+
+
+            n(5); // Give delegate n value = 5 this Value to replace with (int number)into function
             Console.WriteLine($"\nMultiCasting Delegate Value n= {myXNumber}\n");
 
             Console.ReadKey();
