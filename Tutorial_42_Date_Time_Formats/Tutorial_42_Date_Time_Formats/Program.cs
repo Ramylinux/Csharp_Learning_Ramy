@@ -11,21 +11,23 @@ namespace Tutorial_42_Date_Time_Formats
     {
         static void Main(string[] args)
         {
-            //Sdandard Date and Time
+            //1- Sdandard Date and Time
             WriteLine(DateTime.Now.ToString("hh:mm:ss\nMM dd yyyy\n\n\n"));
             WriteLine("\n\n");
-            // OR
+
+            //2- // its better
             DateTime time = DateTime.Now;
-            string format = "MM dd yyyy hh:mm\n\n";
+            string format = "MM dd yyyy hh:mm:ss\n\n"; // You Can Change format just
             WriteLine(time.ToString(format));
             WriteLine("\n\n");
+            
             // OR
-
             DateTime time2 = DateTime.Now;                   // Use Current time
             string format2 = "MMM ddd d yyyy HH:mm\n\n";    // use specific Format
             WriteLine(time.ToString(format2));
             WriteLine("\n\n");
-            // OR
+
+            //3- simple charachter
             DateTime now = DateTime.Now;
             WriteLine(now.ToString("d"));
             WriteLine(now.ToString("D"));
@@ -45,20 +47,21 @@ namespace Tutorial_42_Date_Time_Formats
             WriteLine(now.ToString("y"));
             WriteLine(now.ToString("Y"));
             WriteLine("\n\n");
-            //OR
-
+            
+            // 4- show is part from date or time 
+            //example:
             DateTime now2 = DateTime.Now;
             /// USe Space After s to avoid one-char date formate.
             string result = now2.ToString("s "); // Note Space after s
             WriteLine($"{now2} [s]={result}");
             WriteLine("\n\n");
-            //OR
             
+            // 5-             
             DateTime now3 = DateTime.Today;
             for (int i=0; i<7;i++)
             {
                 WriteLine(now3.ToString("dddd"));
-                now3 = now3.AddDays(1);
+                now3 = now3.AddDays(1); // Add one days from week
             }
             WriteLine("\n\n");
 
