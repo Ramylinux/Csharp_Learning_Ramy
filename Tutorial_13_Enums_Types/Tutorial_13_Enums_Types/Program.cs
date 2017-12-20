@@ -39,7 +39,11 @@ namespace Tutorial_13_Enums_Types
 
             sbyte nameSbyte;
             string stmyName;
-            myName myNameAll = myName.abudhair;
+            // myName myNameAll = myName.abudhair;
+            //OR 
+            myName myNameAll;
+            myNameAll = myName.abudhair;
+            
 
             Console.WriteLine($"print vaule for myNameAll is = {myNameAll} \n");
 
