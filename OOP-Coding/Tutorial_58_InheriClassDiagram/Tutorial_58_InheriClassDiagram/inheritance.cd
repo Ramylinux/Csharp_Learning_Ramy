@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tutorial_58_InheriClassDiagram.Cars">
+    <Position X="17.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Cars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tutorial_58_InheriClassDiagram.Toyota">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Toyota.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
