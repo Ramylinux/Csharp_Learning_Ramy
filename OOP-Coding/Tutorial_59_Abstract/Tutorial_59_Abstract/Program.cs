@@ -12,6 +12,7 @@ namespace Tutorial_59_Abstract
       {
          Managers myMang = new Managers();
          HR myHR = new HR();
+         PTEmployees myPTEMPOOBJ = new PTEmployees();
          myMang.name = "Ramy Abu-Dhair";
          myHR.name="Ahmed";
 
@@ -20,6 +21,10 @@ namespace Tutorial_59_Abstract
 
          myHR.PrintName();
          myHR.PrintDepart();
+
+         myPTEMPOOBJ.shift = "Day";
+         Console.WriteLine($"{myPTEMPOOBJ.shift}");
+
          Console.ReadKey();
       }
    }
