@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{53BEA323-4308-43EA-A2B5-9CFD60EB71FB}</ProjectGuid>
+    <ProjectGuid>{2301B669-E91E-4E25-A9E0-6A53E347FA16}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tutorial_59_Abstract</RootNamespace>
-    <AssemblyName>Tutorial_59_Abstract</AssemblyName>
+    <RootNamespace>Tutorial_60_AutomicProperities</RootNamespace>
+    <AssemblyName>Tutorial_60_AutomicProperities</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\DayPTEmployees.cs">
-      <Link>DayPTEmployees.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\Employees.cs">
-      <Link>Employees.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\HR.cs">
-      <Link>HR.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\Managers.cs">
-      <Link>Managers.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="DayPTEmployees.cs" />
+    <Compile Include="Employees.cs" />
+    <Compile Include="HR.cs" />
+    <Compile Include="Managers.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\..\Tutorial_60_AutomicProperities\PTEmployees.cs">
-      <Link>PTEmployees.cs</Link>
-    </Compile>
+    <Compile Include="PTEmployees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
