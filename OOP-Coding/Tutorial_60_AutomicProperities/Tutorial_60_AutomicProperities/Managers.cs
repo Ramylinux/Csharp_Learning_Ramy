@@ -8,6 +8,9 @@ namespace Tutorial_60_AutomicProperities
 {
    class Managers : Employees
    {
+      // defualt value type with  automic propertities
+      public string nameManager; // Defualt Value into automic propertities
+
       public override void PrintName()
       {
          Console.WriteLine($"This is Name from calss manager Child : {name}");

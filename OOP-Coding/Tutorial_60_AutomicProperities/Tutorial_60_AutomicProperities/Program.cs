@@ -10,20 +10,20 @@ namespace Tutorial_60_AutomicProperities
    {
       static void Main(string[] args)
       {
-         Managers myMang = new Managers();
-         HR myHR = new HR();
-         PTEmployees myPTEMPOOBJ = new PTEmployees();
-         myMang.name = "Ramy Abu-Dhair";
-         myHR.name = "Ahmed";
+         
+         Department myDepart = new Department();
+        
+         Managers myMangerOBj = new Managers();  //Define Object Type Manager
+         myMangerOBj.nameManager = "Ahmed";  //Define Object Type Manager
 
-         myMang.PrintName();
-         myMang.PrintDepart();
+         myDepart.departName = "Managers";
+         myDepart.departEmpNumber = 12;
 
-         myHR.PrintName();
-         myHR.PrintDepart();
+         myDepart.myManag = myMangerOBj;  //Define Object Type Manager
 
-         myPTEMPOOBJ.shift = "Day";
-         Console.WriteLine($"{myPTEMPOOBJ.shift}");
+         Console.WriteLine($"{myDepart.departName} {myDepart.departEmpNumber}");
+       Console.WriteLine($"{myDepart.departRoomsNumb} {myDepart.myManag.nameManager}");
+
 
          Console.ReadKey();
       }
