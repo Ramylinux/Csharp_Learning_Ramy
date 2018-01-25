@@ -9,7 +9,7 @@ namespace Tutorial_63_Interface_Abstract
 {
    class Managers:Employees,IManage,IPunish
    {
-      //  public void PrintFullName() { WriteLine("Full Name From Managers Child Class"); } //This Complier will warning
+       // public void PrintFullName() { WriteLine("Full Name From Managers Child Class"); } //This Complier will warning
       //because this Function available same as Employees class otherwise implementation  this fucntion here execute but into Employees Class not execute 
       public override void PrintEmpSalary() // this Function available this  employees class 
       {
