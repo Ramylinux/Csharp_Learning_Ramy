@@ -34,7 +34,11 @@ namespace Tutorial_27_Out_Parameters
 
             int minVal = MinVlue(myArray, out myIndex);
             Console.WriteLine($"Mimimume Vale = {minVal} and myIndex = {myIndex}");
-            Console.ReadKey();
+
+
+         int minVal1 = MinVlue(myArray, out myIndex);
+         Console.WriteLine($"Mimimume Vale = {minVal1} and myIndex = {myIndex}");
+         Console.ReadKey();
 
 
 
